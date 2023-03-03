@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zeyada', cursive;
+}
+header{
+    background-color: rgb(236, 227, 130);
+    height: 50px;
+}
+nav {
+    border: 5px dotted rgb(22, 103, 22);
+    /* width: min-content; */
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > a {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+
+.about_us {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    text-align: center;
+}
+.about_us img {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    object-position: top;
+    text-align: center;
+    margin: 20px;
+}
+
+.about_us_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_description * {
+    padding: 5px;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.my_game input, .my_game button {
+    border: none;
+    /* background-color: rgb(175, 220, 98); */
+    margin: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+    width: max-content;
+    background-color: darkkhaki;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.my_game input {
+    background-color: rgb(181, 177, 135);
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lawngreen;
+}
+
+.choosed_element {
+    border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.posts_block > h2 {
+    text-align: center;
+}
+.posts_block-container > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: khaki;
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+/* img {
+    width: 500px;
+    margin: 10px 150px;
+    
+}
+
+span {
+    font-size: 20px;
+}
+.name {
+    color: red;
+}
+#skill {
+    color: blue;
+}
+h1 {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+h2 {
+    text-align: center;
+} */
