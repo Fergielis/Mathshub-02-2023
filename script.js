@@ -463,4 +463,5 @@ function getPosts () {
   .catch(err => console.log(err.message))
 }
 
-showPostsBTN.onclick = getPosts
+// showPostsBTN.onclick = getPosts
+getPosts()

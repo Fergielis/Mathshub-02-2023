@@ -9,10 +9,16 @@
 header{
     background-color: rgb(236, 227, 130);
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
+
+
 nav {
     border: 5px dotted rgb(22, 103, 22);
     /* width: min-content; */
+    width: inherit;
     height: inherit;
     display: flex;
     justify-content: center;
@@ -25,7 +31,13 @@ nav > a {
     padding: 0 30px;
     justify-content: center;
 }
+nav > a:hover {
+    color: lemonchiffon;
+}
 
+main {
+    margin-top: 50px;
+}
 
 .about_us {
     display: flex;
